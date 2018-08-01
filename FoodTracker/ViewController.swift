@@ -103,7 +103,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         let text = mealNameText.text ?? ""
         saveButton.isEnabled = !text.isEmpty
     }
-    
 
 }
 
